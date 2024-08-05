@@ -13,7 +13,7 @@
   - The following **models** were considered: ***Linear Regression / Logistic Regression / Decision Tree / Randon Forest***
 
 ## Results
-**1. Linear Regression Model**
+**1. Linear Regression Model**:
 A linear regression model **would not be suitable** for this analysis because the target variable `loan_status` is categorical, not continuous. Linear regression is typically used for predicting continuous numerical outcomes. In this case, the `loan_status` column indicates categorical classes (0 for healthy loans and 1 for high-risk loans), which is a binary classification problem.
 
  **2. Logistic Regression Model**
