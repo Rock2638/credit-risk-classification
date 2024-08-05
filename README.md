@@ -16,7 +16,7 @@
 **1. Linear Regression Model**:
 A linear regression model **would not be suitable** for this analysis because the target variable `loan_status` is categorical, not continuous. Linear regression is typically used for predicting continuous numerical outcomes. In this case, the `loan_status` column indicates categorical classes (0 for healthy loans and 1 for high-risk loans), which is a binary classification problem.
 
- **2. Logistic Regression Model**
+ **2. Logistic Regression Model**:
 The classification report that was generated summarises the performance of the **logistic regression model** for predicting the two classes: 0 (healthy loan) and 1 (high-risk loan). The high accuracy of 99% indicates that the model handles the data very well. 
 #### *Healthy Loan*
 -   **Precision**: 1.00 - This means that all the loans predicted as healthy loans are actually healthy loans. 
@@ -25,7 +25,7 @@ The classification report that was generated summarises the performance of the *
 -   **Precision**: 0.85 - Out of all the loans predicted as high-risk, 85% are actually high-risk. 
 -   **Recall**: 0.91 - 91% of the actual high-risk loans are correctly identified. There is a 9% miss rate where high-risk loans are classified as healthy.
 
-**3. Decision Tree Model**
+**3. Decision Tree Model**:
 The classification report that was generated summarises the performance of the **decision tree model** for predicting the two classes: 0 (healthy loan) and 1 (high-risk loan). The high accuracy of 99% indicates that the model handles the data very well. 
 #### *Healthy Loan*
 -   **Precision**: 1.00 - This means that all the loans predicted as healthy loans are actually healthy loans. 
@@ -34,7 +34,7 @@ The classification report that was generated summarises the performance of the *
 -   **Precision**: 0.84 - Out of all the loans predicted as high-risk, 84% are actually high-risk. 
 -   **Recall**: 0.85 - 85% of the actual high-risk loans are correctly identified. There is a 15% miss rate where high-risk loans are classified as healthy.
 
-**4. Random Forest model**
+**4. Random Forest model**:
 The classification report that was generated summarises the performance of the **Random forest model** for predicting the two classes: 0 (healthy loan) and 1 (high-risk loan). The high accuracy of 99% indicates that the model handles the data very well. 
 #### *Healthy Loan*
 -   **Precision**: 1.00 - This means that all the loans predicted as healthy loans are actually healthy loans. 
