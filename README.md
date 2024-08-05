@@ -10,7 +10,7 @@
   - The 'lending_data.csv' data from the 'Resources' folder was read into a Pandas DataFrame.
   - The labels set 'y' from the 'loan_status' column was created, and then the features 'x' DataFrame was created from the remaining columns.
   - The data was split into training and testing datasets by using 'train_test_split'. 
-  - The following models were considered: ***Linear Regression / Logistic Regression / Decision Tree / Randon Forest***
+  - The following **models** were considered: ***Linear Regression / Logistic Regression / Decision Tree / Randon Forest***
 
 ## Results
 **1. Linear Regression Model**
